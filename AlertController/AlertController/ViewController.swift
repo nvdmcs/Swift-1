@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  AlertController
 //
-//  Created by Ada Lovelace Code on 01/01/2018.
-//  Copyright © 2018 Ada Lovelace Code. All rights reserved.
+//  Created by Crab Invader on 01/01/2018.
+//  Copyright © 2018 Crab Invader. All rights reserved.
 //
 
 import UIKit
@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     @IBAction func actionAlert(_ sender: AnyObject) {
         
-        let alertController = UIAlertController(title: "My Title", message: "This is an alert", preferredStyle:UIAlertControllerStyle.alert)
+      let alertController = UIAlertController(title: "My Title", message: "This is an alert", preferredStyle:UIAlertController.Style.alert)
         
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { _ in
             print("you have pressed the Cancel button");
@@ -32,7 +32,7 @@ class ViewController: UIViewController {
 
     @IBAction func actionSheet(_ sender: AnyObject) {
         
-        let alertController = UIAlertController(title: "My Title", message: "This is an alert", preferredStyle:UIAlertControllerStyle.actionSheet)
+      let alertController = UIAlertController(title: "My Title", message: "This is an alert", preferredStyle:UIAlertController.Style.actionSheet)
         
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { _ in
             print("you have pressed the Cancel button");
@@ -52,7 +52,7 @@ class ViewController: UIViewController {
     
     @IBAction func actionAlertWithForm(_ sender: AnyObject) {
         
-        let alertController = UIAlertController(title: "My Title", message: "This is an alert", preferredStyle:UIAlertControllerStyle.alert)
+      let alertController = UIAlertController(title: "My Title", message: "This is an alert", preferredStyle:UIAlertController.Style.alert)
             
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { _ in
             print("you have pressed the Cancel button");
