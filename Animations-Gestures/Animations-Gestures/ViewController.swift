@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Animations-Gestures
 //
-//  Created by Ada Lovelace Code on 01/01/2018.
-//  Copyright © 2018 Ada Lovelace Code. All rights reserved.
+//  Created by Crab Invader on 01/01/2018.
+//  Copyright © 2018 Crab Invader. All rights reserved.
 //
 
 import UIKit
@@ -30,12 +30,12 @@ class ViewController: UIViewController {
         
         //walk right
         let swipeGestureRight = UISwipeGestureRecognizer(target: self, action: #selector(ViewController.walkRight(_:)))
-        swipeGestureRight.direction = UISwipeGestureRecognizerDirection.right
+      swipeGestureRight.direction = UISwipeGestureRecognizer.Direction.right
         view.addGestureRecognizer(swipeGestureRight)
         
         //walk left
         let swipeGestureLeft = UISwipeGestureRecognizer(target: self, action: #selector(ViewController.walkLeft(_:)))
-        swipeGestureLeft.direction = UISwipeGestureRecognizerDirection.left
+      swipeGestureLeft.direction = UISwipeGestureRecognizer.Direction.left
         view.addGestureRecognizer(swipeGestureLeft)
         
         //jump
