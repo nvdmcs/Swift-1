@@ -2,7 +2,7 @@
 Reusable Swift code 
 ====================
 
-This project provides some examples in Swift 4.2 for iOS, its general syntax should be familiar enough for most programmers to understand.
+This project provides some examples in Swift 5 for iOS, its general syntax should be familiar enough for most programmers to understand.
 
 Audience
 ---------------------
@@ -65,7 +65,7 @@ I plan to write further additional examples and all developers are welcome to fo
 Getting Started
 ---------------------
 
-Running in Xcode 10 and iOS 12
+Running in Xcode 10.2.1 and iOS 12.2
 
 
 Usage
