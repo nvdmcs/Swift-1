@@ -12,20 +12,9 @@
 		0770A8131A2D5FE400494953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0770A8111A2D5FE400494953 /* Main.storyboard */; };
 		0770A8151A2D5FE400494953 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0770A8141A2D5FE400494953 /* Images.xcassets */; };
 		0770A8181A2D5FE400494953 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0770A8161A2D5FE400494953 /* LaunchScreen.xib */; };
-		0770A8241A2D5FE400494953 /* CoreAnimationSample1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770A8231A2D5FE400494953 /* CoreAnimationSample1Tests.swift */; };
 		0770A82E1A2D5FFD00494953 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0770A82D1A2D5FFD00494953 /* QuartzCore.framework */; };
 		0770A8301A2D601800494953 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0770A82F1A2D601800494953 /* image1.png */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0770A81E1A2D5FE400494953 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0770A8001A2D5FE400494953 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0770A8071A2D5FE400494953;
-			remoteInfo = CoreAnimationSample1;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0770A8081A2D5FE400494953 /* CoreAnimationSample1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationSample1.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,9 +24,6 @@
 		0770A8121A2D5FE400494953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0770A8141A2D5FE400494953 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0770A8171A2D5FE400494953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		0770A81D1A2D5FE400494953 /* CoreAnimationSample1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreAnimationSample1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0770A8221A2D5FE400494953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0770A8231A2D5FE400494953 /* CoreAnimationSample1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAnimationSample1Tests.swift; sourceTree = "<group>"; };
 		0770A82D1A2D5FFD00494953 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		0770A82F1A2D601800494953 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,13 +37,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0770A81A1A2D5FE400494953 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -66,7 +45,6 @@
 			children = (
 				0770A82D1A2D5FFD00494953 /* QuartzCore.framework */,
 				0770A80A1A2D5FE400494953 /* CoreAnimationSample1 */,
-				0770A8201A2D5FE400494953 /* CoreAnimationSample1Tests */,
 				0770A8091A2D5FE400494953 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				0770A8081A2D5FE400494953 /* CoreAnimationSample1.app */,
-				0770A81D1A2D5FE400494953 /* CoreAnimationSample1Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,23 +79,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0770A8201A2D5FE400494953 /* CoreAnimationSample1Tests */ = {
-			isa = PBXGroup;
-			children = (
-				0770A8231A2D5FE400494953 /* CoreAnimationSample1Tests.swift */,
-				0770A8211A2D5FE400494953 /* Supporting Files */,
-			);
-			path = CoreAnimationSample1Tests;
-			sourceTree = "<group>";
-		};
-		0770A8211A2D5FE400494953 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0770A8221A2D5FE400494953 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,24 +99,6 @@
 			productReference = 0770A8081A2D5FE400494953 /* CoreAnimationSample1.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0770A81C1A2D5FE400494953 /* CoreAnimationSample1Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0770A82A1A2D5FE400494953 /* Build configuration list for PBXNativeTarget "CoreAnimationSample1Tests" */;
-			buildPhases = (
-				0770A8191A2D5FE400494953 /* Sources */,
-				0770A81A1A2D5FE400494953 /* Frameworks */,
-				0770A81B1A2D5FE400494953 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0770A81F1A2D5FE400494953 /* PBXTargetDependency */,
-			);
-			name = CoreAnimationSample1Tests;
-			productName = CoreAnimationSample1Tests;
-			productReference = 0770A81D1A2D5FE400494953 /* CoreAnimationSample1Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,23 +107,18 @@
 			attributes = {
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = "adalovelacecode";
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = adalovelacecode;
 				TargetAttributes = {
 					0770A8071A2D5FE400494953 = {
 						CreatedOnToolsVersion = 6.1;
 						LastSwiftMigration = 0900;
 					};
-					0770A81C1A2D5FE400494953 = {
-						CreatedOnToolsVersion = 6.1;
-						LastSwiftMigration = 0900;
-						TestTargetID = 0770A8071A2D5FE400494953;
-					};
 				};
 			};
 			buildConfigurationList = 0770A8031A2D5FE400494953 /* Build configuration list for PBXProject "CoreAnimationSample1" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -193,7 +130,6 @@
 			projectRoot = "";
 			targets = (
 				0770A8071A2D5FE400494953 /* CoreAnimationSample1 */,
-				0770A81C1A2D5FE400494953 /* CoreAnimationSample1Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -210,13 +146,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0770A81B1A2D5FE400494953 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -229,23 +158,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0770A8191A2D5FE400494953 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0770A8241A2D5FE400494953 /* CoreAnimationSample1Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0770A81F1A2D5FE400494953 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0770A8071A2D5FE400494953 /* CoreAnimationSample1 */;
-			targetProxy = 0770A81E1A2D5FE400494953 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0770A8111A2D5FE400494953 /* Main.storyboard */ = {
@@ -279,12 +192,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -311,11 +226,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -331,12 +247,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -356,10 +274,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -369,11 +288,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CoreAnimationSample1/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.adacode.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crabinvader.CoreAnimationSample1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -382,49 +301,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CoreAnimationSample1/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.adacode.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crabinvader.CoreAnimationSample1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		0770A82B1A2D5FE400494953 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CoreAnimationSample1Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.adacode.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreAnimationSample1.app/CoreAnimationSample1";
-			};
-			name = Debug;
-		};
-		0770A82C1A2D5FE400494953 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CoreAnimationSample1Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.adacode.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreAnimationSample1.app/CoreAnimationSample1";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -445,15 +326,6 @@
 			buildConfigurations = (
 				0770A8281A2D5FE400494953 /* Debug */,
 				0770A8291A2D5FE400494953 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0770A82A1A2D5FE400494953 /* Build configuration list for PBXNativeTarget "CoreAnimationSample1Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0770A82B1A2D5FE400494953 /* Debug */,
-				0770A82C1A2D5FE400494953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

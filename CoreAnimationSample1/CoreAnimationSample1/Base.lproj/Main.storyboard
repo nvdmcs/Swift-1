@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Nyw-dW-piz">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="Nyw-dW-piz">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -13,23 +17,38 @@
                         <viewControllerLayoutGuide type="bottom" id="sOn-wn-Pdd"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="I96-Cg-35p">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image1.png" translatesAutoresizingMaskIntoConstraints="NO" id="DiH-vB-saT">
-                                <rect key="frame" x="83" y="54" width="154" height="152"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image1.png" translatesAutoresizingMaskIntoConstraints="NO" id="DiH-vB-saT">
+                                <rect key="frame" x="130" y="132" width="154" height="152"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="DiH-vB-saT" secondAttribute="height" multiplier="77:76" id="kvJ-Tv-IMF"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gm4-9e-enm">
-                                <rect key="frame" x="136" y="451" width="57" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gm4-9e-enm">
+                                <rect key="frame" x="179" y="443" width="57" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="b75-2V-Sd0"/>
+                                    <constraint firstAttribute="width" constant="57" id="iNU-O2-g5p"/>
+                                </constraints>
                                 <state key="normal" title="Animate">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="animate:" destination="Nyw-dW-piz" eventType="touchUpInside" id="c3u-9A-rdh"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gm4-9e-enm" firstAttribute="top" secondItem="DiH-vB-saT" secondAttribute="bottom" constant="159" id="Mx0-IV-EM0"/>
+                            <constraint firstItem="DiH-vB-saT" firstAttribute="top" secondItem="5bd-iy-tNp" secondAttribute="bottom" constant="88" id="Ssq-P0-Rfg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DiH-vB-saT" secondAttribute="trailing" constant="110" id="YQs-IY-jEw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gm4-9e-enm" secondAttribute="trailing" constant="158" id="ZtD-Dx-KeP"/>
+                            <constraint firstItem="gm4-9e-enm" firstAttribute="leading" secondItem="I96-Cg-35p" secondAttribute="leadingMargin" constant="159" id="j0F-JL-aOA"/>
+                            <constraint firstItem="DiH-vB-saT" firstAttribute="leading" secondItem="I96-Cg-35p" secondAttribute="leadingMargin" constant="110" id="qd6-LT-6Cf"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="image" destination="DiH-vB-saT" id="HCI-CG-h7c"/>
@@ -37,15 +56,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A9g-z1-mUP" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="162" y="366"/>
+            <point key="canvasLocation" x="234.78260869565219" y="245.08928571428569"/>
         </scene>
     </scenes>
     <resources>
         <image name="image1.png" width="800" height="800"/>
     </resources>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
-    </simulatedMetricsContainer>
 </document>
