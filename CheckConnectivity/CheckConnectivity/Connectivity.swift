@@ -2,8 +2,8 @@
 //  Connectivity.swift
 //  CheckConnectivity
 //
-//  Created by Ada Lovelace Code on 01/01/2018.
-//  Copyright © 2018 Ada Lovelace Code. All rights reserved.
+//  Created by Crab Invader on 01/01/2018.
+//  Copyright © 2018 Crab Invader. All rights reserved.
 //
 
 import Foundation
@@ -33,5 +33,4 @@ open class Reachability {
         
         return isReachable && !needsConnection
     }
-    
 }
