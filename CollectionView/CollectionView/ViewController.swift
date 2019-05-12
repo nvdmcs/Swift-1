@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  CollectionView
 //
-//  Created by Ada Lovelace Code on 01/01/2018.
-//  Copyright © 2018 Ada Lovelace Code. All rights reserved.
+//  Created by Crab Invader on 01/01/2019.
+//  Copyright © 2019 Crab Invader. All rights reserved.
 //
 
 import UIKit
@@ -32,5 +32,4 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         imageView.image = items.object(at: (indexPath as NSIndexPath).row%9) as? UIImage
         return cell
     }
-
 }
